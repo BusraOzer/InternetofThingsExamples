@@ -1,0 +1,8 @@
+import re
+
+info = 'name:tolga, surname:buyuktanir, phone:555-5555555'
+
+m=re.match("\w+:\w+,\w+:\w+,\w+:\d")
+
+print(m.groups())
+
